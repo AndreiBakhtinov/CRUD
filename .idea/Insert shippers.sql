@@ -1,3 +1,3 @@
 Use Shippers;
-INSERT INTO Shippers (shipperName, Phone)
+INSERT INTO Shippers (ShipperName, Phone)
 VALUES ('Amazon', '+49223322');
