@@ -1,0 +1,8 @@
+table employees {
+  EmployeeID INTEGER [pk, increment]
+  LastName varchar(128)
+  FirstName varchar(128)
+  BirthDate TIMESTAMP
+  Photo varchar(128)
+  Notes varchar(1024)
+}
