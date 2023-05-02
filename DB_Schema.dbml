@@ -1,0 +1,9 @@
+table customers {
+  CustomerID INTEGER [pk, increment]
+  CustomerName VARCHAR(64)
+  ContactName VARCHAR(64)
+  Address VARCHAR(128)
+  City VARCHAR(64)
+  PostalCode VARCHAR(16)
+  Country VARCHAR(64)
+}
