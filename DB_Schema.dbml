@@ -1,3 +1,11 @@
+table Orders {
+  OrderID INTEGER [PRIMARY KEY]
+  CustomerID INT
+  EmployeeID INT
+  OrderDate DATE
+  ShipperID INT
+}
+
 table customers {
   CustomerID INTEGER [pk, increment]
   CustomerName VARCHAR(64)
