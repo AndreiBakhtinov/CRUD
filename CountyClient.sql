@@ -1,1 +1,1 @@
-SELECT Country FROM Customers Group By Country Order By Country;
+SELECT DISTINCT Country FROM Customers Order By Country;
