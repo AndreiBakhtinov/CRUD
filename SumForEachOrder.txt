@@ -1,7 +1,0 @@
-SELECT O.OrderID, sum(P.Price) as sum FROM [OrderDetails] O
-LEFT JOIN Products P ON O.ProductID = P.ProductID
-Group By O.OrderID
-
-Pseudonym for code:
-O - OrderDetails
-P - Products
